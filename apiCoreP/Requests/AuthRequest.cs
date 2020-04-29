@@ -1,5 +1,6 @@
 ﻿namespace apiCoreP.Requests
 {
+    /// где валидаторы?
     /// <summary>
     /// login request
     /// </summary>
@@ -8,6 +9,7 @@
         /// <summary>
         /// login
         /// </summary>
+        
         public string Email { get; set; }
 
         /// <summary>

@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc.Filters;
 using apiCoreP.Enums;
 using apiCoreP.Services;
 
+//в EntityFramework есть встроенные роли, можно было использовать IdentityServer
 namespace apiCoreP.Attributes
 {
     /// <summary>

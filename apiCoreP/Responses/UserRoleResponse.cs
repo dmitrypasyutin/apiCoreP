@@ -6,7 +6,7 @@ namespace apiCoreP.Responses
     /// <summary>
     /// user role details response
     /// </summary>
-    public class UserRoleResponse : UserRole
+    public class UserRoleResponse : UserRole //сомневаюсь что UserRole подходит для респонса
     {
         /// <summary>
         /// users without role

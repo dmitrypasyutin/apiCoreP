@@ -42,7 +42,7 @@ namespace apiCoreP.Services
         /// <param name="skip"></param>
         /// <param name="count"></param>
         /// <returns></returns>
-        public async Task<SubscribersResponse> GetSubscribers(int? skip = 0, int? count = 10)
+        public async Task<SubscribersResponse> GetSubscribers(int? skip = 0, int? count = 10) //зачем nullable?
         {
             var result = new SubscribersResponse();
 
@@ -110,6 +110,8 @@ namespace apiCoreP.Services
         }
     }
 
+
+    //вынести в отдельный класс
     /// <summary>
     /// subscriber interface
     /// </summary>

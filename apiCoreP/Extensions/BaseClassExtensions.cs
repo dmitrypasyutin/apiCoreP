@@ -3,6 +3,7 @@ using System.Reflection;
 
 namespace apiCoreP.Extensions
 {
+    //это не он писал. почему бы не использовать Mapper?
     /// <summary>
     /// 
     /// </summary>

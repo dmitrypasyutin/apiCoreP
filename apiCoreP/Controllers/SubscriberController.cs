@@ -39,7 +39,7 @@ namespace apiCoreP.Controllers
         /// <returns></returns>
         [CheckAccess(UserRoleType.Read)]
         [HttpGet]
-        public async Task<ActionResult<SubscribersResponse>> Subscribers(int? skip = 0, int? count = 10)
+        public async Task<ActionResult<SubscribersResponse>> Subscribers(int? skip = 0, int? count = 10) //зачем nullable?
         {
             return await _subscriberService.GetSubscribers(skip, count);
         }
